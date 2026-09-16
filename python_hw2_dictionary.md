@@ -38,15 +38,15 @@ shoes = {
 
 ### Question A
 
-Print the name of the shoe with the ID `"SHOE-1002"`.
+Print the `name` of the shoe with the ID `"SHOE-1002"`.
 
 ### Question B
 
-Print the price of the shoe with the ID `"SHOE-1003"`.
+Print the `price` of the shoe with the ID `"SHOE-1003"`.
 
 ### Question C
 
-For `"SHOE-1001"`, print each available shoe size that is greater than `8`.
+For `"SHOE-1001"`, print each `available shoe size` that is greater than `8`.
 
 <details>
 <summary>Click to see a hint for Question C</summary>
