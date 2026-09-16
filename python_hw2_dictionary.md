@@ -39,13 +39,12 @@ shoes = {
 #### Qn. C: For `"SHOE-1001"`, print each available shoe size that is greater than `8`.
 <details>
 <summary>Click to see hint for Qn C</summary>
+You can grab the available_sizes for the shoe using its id like below and then store that in a variable sizes
+Then use a for loop to go through the sizes    
 ```python
-# you can grab the available shoe sizes like this and store them in a variable sizes
-sizes = shoes[???]["available_sizes"]
-
-# then use a for loop
+sizes = shoes["SHOE-1001"]["available_sizes"]
 for size in sizes:
-    # Write an if statement to check if the size is greater than 8
-      # Print only the sizes greater than 8 
+    Write an if statement to check if the size is greater than 8
+      print only the sizes greater than 8 
 ```
 </details>
