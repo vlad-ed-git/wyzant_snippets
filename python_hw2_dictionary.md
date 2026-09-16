@@ -34,10 +34,11 @@ shoes = {
 }
 ```
 
-### Print the name of the shoe with the ID `"SHOE-1002"`.
-### Print the price of the shoe with the ID `"SHOE-1003"`.
-### For `"SHOE-1001"`, print each available shoe size that is greater than `8`.
-Hint: 
+#### Qn. A: Print the name of the shoe with the ID `"SHOE-1002"`.
+#### Qn. B: Print the price of the shoe with the ID `"SHOE-1003"`.
+#### Qn. C: For `"SHOE-1001"`, print each available shoe size that is greater than `8`.
+<details>
+<summary>Click to see hint for Qn C</summary>
 ```python
 # you can grab the available shoe sizes like this and store them in a variable sizes
 sizes = shoes[???]["available_sizes"]
@@ -47,3 +48,4 @@ for size in sizes:
     # Write an if statement to check if the size is greater than 8
       # Print only the sizes greater than 8 
 ```
+</details>
